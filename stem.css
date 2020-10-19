@@ -1,0 +1,97 @@
+<style>
+
+  * {
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* If device width is less than 600px, NavBar will be stacked */
+@media screen and (max-width: 600px) {
+  .topnav a {
+    float: none;
+    width: 100%;
+  }
+}
+
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: cornflowerblue;
+}
+
+
+.topnav {
+  overflow: auto;
+  background-color: #333;
+  margin-bottom: 5px;
+  /* For position: sticky to work in Safari, an import is required*/
+  position: -webkit-sticky; position: sticky;
+  top: 0;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-weight: bold;
+
+}
+
+.topnav a:hover {
+  background-color: white; /* hex color #ebebeb for a light gray */
+  color: black;
+}
+
+.backimg {
+  background-image: url("https://cordialmooz.github.io/stem.github.io/images/stem.jpeg");
+    min-height: 800px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.content-grid {
+  display: grid;
+  grid-template-columns: 25% 70%;
+  justify-content: center;
+  align-content: space-around;
+  height:920px;
+  column-gap: 2%;
+  margin-top: 10px;
+}
+
+.columnleft {
+  grid-column: 20%;
+  padding: 0px 4px 3px 4px;
+}
+#img {
+  border-radius: 6px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.columnmain {
+  grid-column: 75%;
+  padding: 0px 7px 3px 7px;
+}
+
+.content-grid > div {
+  background-color: #ebebeb; /* hex color #ebebeb for a lighter gray */
+  height: 900px;
+ border-style:groove;
+ border: 5px solid black;
+ border-radius: 8px;
+}
+
+.footer {
+  background-color: #333;
+  padding: 10px 4px 10px 4px;
+  margin: 18px 0 0 0;
+  color: white;
+}
+ </style>
