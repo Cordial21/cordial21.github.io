@@ -47,7 +47,7 @@ body {
 }
 
 .backimg {
-  background-image: url("https://cordialmooz.github.io/stem.github.io/images/stem.jpeg");
+  background-image: url("");
     min-height: 800px;
     background-attachment: fixed;
     background-position: center;
@@ -58,8 +58,8 @@ body {
   display: grid;
   grid-template-columns: 25% 70%;
   justify-content: center;
-  align-content: space-around;
-  height:920px;
+  align-content: auto;
+  height:1300px;
   column-gap: 2%;
   margin-top: 10px;
 }
@@ -82,7 +82,7 @@ body {
 
 .content-grid > div {
   background-color: #ebebeb; /* hex color #ebebeb for a lighter gray */
-  height: 900px;
+  height: 1200px;
  border-style:groove;
  border: 5px solid black;
  border-radius: 8px;
